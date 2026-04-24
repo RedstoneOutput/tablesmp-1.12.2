@@ -27,9 +27,7 @@
           enumerable: true,
           set(value) {
             value.servers = [
-  { addr: "wss://TableSMP.eagler.host", name: "Table SMP [Recommended]" },
-  { addr: "wss://crazysmp.duckdns.org", name: "CrazySmp" },
-  { addr: "wss://1b2t.eagler.host", name: "1 Builder 2 Tools" }
+  { addr: "wss://TableSMP.eagler.host", name: "Table SMP"
 ];
             this._eaglercraftXOpts = value;
           },
